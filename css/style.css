@@ -87,4 +87,20 @@ button:hover {
     justify-content: center;
     align-self: center;
     padding-right: 90px;
-}   
+}
+
+.randominfo {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: #white;
+}
+
+.randominfo .top {
+    display: flex;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 10px;
+        
+}
