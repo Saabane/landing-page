@@ -34,13 +34,14 @@ button:hover {
     justify-content: space-around;
     padding: 16px;
     height: 30px;
+    flex-wrap: wrap;
 }
 
 .content {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    height: 400px;
+    min-height: 350px;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
@@ -83,10 +84,9 @@ button:hover {
 .content img {
     display: flex;
     height: 300px;
-    width: 450px;
-    justify-content: center;
-    align-self: center;
+    width: 300px;
     padding-right: 90px;
+    flex-wrap: wrap;
 }
 
 
@@ -106,6 +106,7 @@ button:hover {
 }
 
 body {
+    flex-wrap: wrap;
     background: #F9FAF8;
 }
 .title {
@@ -123,6 +124,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    min-height: 350px;
+    flex-wrap: wrap;
 }
 .info {
     display: flex;
