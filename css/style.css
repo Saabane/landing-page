@@ -152,18 +152,30 @@ body {
 
 .quotecontainer {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    min-height: 300px;
+    min-height: 350px;
     flex-direction: column;
 }
 
 .quote {
     display: flex;
-    color: #1F2937;
-    font-size: 36px;
+    color: #1F2937;  
+    font-size: 32px;
+    font-weight: 300;
     font-style: italic;
+    padding: 0 90px;
+}
+
+.author {
+    display: flex;
+    color: #1F2937;
     flex-wrap: wrap;
-    padding: 0 350px;
+    font-weight: 800;
+    justify-content: center;
+    align-self: flex-end;
+    padding-right: 60px;
+
 }
