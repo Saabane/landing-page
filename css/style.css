@@ -106,7 +106,7 @@ button:hover {
 }
 
 body {
-    background-color: #F9FAF8;
+    background: #F9FAF8;
 }
 .title {
     display: flex;
@@ -138,10 +138,11 @@ body {
     border: #3882F6 solid;
 }
 
-.text   {
+.container .text   {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 10px;
+    color: #1F2937;
 }
