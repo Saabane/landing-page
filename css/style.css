@@ -61,7 +61,7 @@ button:hover {
 
 .soft {
     font-size: 18px;
-    columns: #E5E7EB;
+    color: #E5E7EB;
     font-weight: 300;
 }
 
@@ -152,11 +152,11 @@ body {
 
 .quotecontainer {
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: #E5E7EB;
     min-height: 300px;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .quote {
@@ -164,16 +164,6 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    align-self: center;
-    width: 650px;
-}
-
-.author {
-    display: flex;
-    color: #1F2937;
-    font-weight: 800;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-self: flex-end;
-    width: 650px;
+    padding: 0 350px;
 }
